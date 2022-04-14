@@ -1,0 +1,106 @@
+﻿<!--This is a project focused on HTML and building a skeleton of a CV.
+No CSS, JS, etc required-->
+<!DOCTYPE html>
+<html lang="en"lo>
+<head>
+    <meta charset="utf-8" />
+    <meta keywords="HTML project 3 About me" />
+    <title>HTMLProject3</title>
+    <style>
+        table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+}
+    </style>
+</head>
+<body>
+    <header><!-- This will just help the reader navigate through the page -->
+    <h1 style="color:purple;"><b>Ricca Sharymaine Concio</b></h1>
+        <nav>
+            <ul>
+                <li><a href="#aboutMe">About Me</a></li>
+                <li><a href="#interest">My interests</a></li>
+                <li><a href="#contactMe">Contact details</a></li>
+                <li><a href="#leaveAMsg">Leave a message</a></li>
+            </ul>
+        </nav>
+    <hr /><hr>
+    </header>
+    <main>
+        <section id="aboutMe">
+            <h2 style="color:purple;">About Me</h2>
+            <p> My name is Ricca and I'm residing in the Philippines.
+            I definitely use technology everyday and that's when I realized
+            that understanding how it works would be cool! The internet has been a hub
+            for all sorts of things, and this is why I want to enter the IT industry. It's one of the
+            growing passions I have.
+            <img src="https://s.w.org/images/core/emoji/13.0.1/svg/1f60e.svg" alt="cool" height="14" width="14" /></p>
+
+            <p>I graduated with a Bachelor's degree and I have been working online since 2015.
+            However, I am still mush drawn to learning and using the knowledge I gain.</p>
+<div id="interest">
+    <!--This part shows the usage of lists-->
+            <h2>I indulge myself in art. I like:</h2>
+            <ul>
+                <li>digital painting</li>
+                <li>acrylic painting</li>
+                <li>dancing</li>
+                <li>photogyraphy</li>
+            </ul>
+        </div>
+            <div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur hendrerit, libero eu cursus facilisis, lacus leo consequat risus, vel pulvinar enim sapien id sem. Morbi faucibus ante eget bibendum iaculis. Sed sodales ligula et dapibus pretium. Vestibulum condimentum quam elit, quis accumsan turpis ultricies id. Sed vel massa sit amet nunc vestibulum fermentum. Sed ac nisl et nisl mollis blandit non in mi. Proin sodales blandit nisl vel tristique.
+               Ut in efficitur erat. Etiam bibendum placerat ornare. Morbi nibh arcu, interdum sed ornare vel, efficitur id lectus. Nunc et felis massa. In sagittis eros posuere elit euismod, sit amet gravida eros tincidunt. Praesent venenatis felis sit amet urna ullamcorper venenatis. Suspendisse condimentum placerat convallis. In efficitur mattis augue, et rhoncus metus congue at. Fusce et lacinia erat. Proin vehicula ante ipsum. Maecenas id sapien ut sem aliquet fringilla eget eu ligula. Nulla porttitor mi sit amet ullamcorper sagittis. Aenean at commodo augue. Quisque malesuada magna scelerisque ipsum gravida sodales.
+               Maecenas ligula diam, feugiat in suscipit in, ornare ut diam. Cras tempus arcu ac turpis sagittis venenatis. Sed nec urna a magna scelerisque porttitor eu ut nulla. Mauris vulputate ante tincidunt consequat pulvinar. In hac habitasse platea dictumst. Maecenas libero dolor, vehicula eu tristique non, pulvinar quis dui. Suspendisse ullamcorper sem sed nunc aliquam varius. Vestibulum pulvinar consectetur ex, id ultricies nisi tempus ac. Ut vestibulum aliquam tellus, ac viverra dui luctus sit amet. Curabitur gravida maximus risus volutpat mollis.
+                Suspendisse et blandit ligula. Sed in eleifend felis. Nunc cursus lacus massa, et placerat diam elementum et. Vestibulum mattis, mauris ac mattis interdum, odio magna pretium nisi, nec vehicula libero augue eget leo. Quisque massa ex, finibus in ultricies egestas, rutrum ut massa. Morbi vitae justo lobortis, tincidunt felis non, hendrerit purus. Morbi volutpat commodo mauris, ac viverra tellus accumsan eget. Quisque facilisis, ipsum in laoreet condimentum, urna metus commodo orci, a eleifend turpis erat non ipsum. Aliquam condimentum tellus vel dolor mattis dictum. Ut sapien odio, tempor sit amet odio non, tincidunt lobortis sem. Nunc eu elit interdum, sollicitudin felis quis, interdum libero. Curabitur sed tempus ligula. Sed non eros consectetur augue aliquam cursus. Nullam quis turpis quis velit pulvinar cursus. Donec auctor ullamcorper nisi quis pulvinar. Nunc purus lorem, scelerisque sed magna ac, efficitur condimentum quam.
+            </p>
+        </div>
+        <!--A part to use a table-->
+        <h2>Achievements and recognitions:</h2>
+        <table>
+            <tr>
+                <th>Year</th><th>Achievement</th><th>Description</th>
+            </tr>
+            <tr>
+                <td>2015</td><td>Graduated Cum Laude</td><td>Graduated Cum Laude from the University</td>
+            </tr>
+            <tr>
+                <td>2016</td><td>SCAA Certification</td><td>Acomplished and finish a training for SCAA. Grade: 90</td>
+            </tr>
+            <tr>
+                <td>2018</td><td>TEFL</td><td>A certification from TEFLEN College</td>
+            </tr>
+        </table>
+        <hr />
+        </section>
+<!--This div shows the contact details using a list-->
+            <div id="contactMe">
+                <h2>Contact me at:</h2>
+                <ul>
+                <li>riccasharymaine.concio@gmail.com</li>
+                <li> +63 123 456 789</li>
+                <li> <a href="https://www.linkedin.com/in/riccaconcio/">linkedIn</a></li>
+                </ul></p>
+            </div>
+        <div><!--A form to send a message via the email button.
+            This is not functioning as this project is only focused on HTML-->
+        <h2>Leave a message!</h2>
+        <form id="leaveAMsg">
+            NAME:<input type="text" placeholder="Type your name"><br>
+            MESSAGE:<textarea placeholder="Type your message here."></textarea><br>
+        <button type="submit">SEND</button>
+        </form>
+        </div>
+    </main>
+    <hr><hr>
+    <footer id="footer">
+        <h3 style="color:purple;">RiccaC</h3>
+        <p><b>FullStack Developer</b><br />
+        <i>"If you can dream it, you can be it!"</i><br />
+        </p>
+        <p>copyright &copy; <i>practicing the copyright sign</i></p>
+        
+    </footer>
+</body>
+</html>
