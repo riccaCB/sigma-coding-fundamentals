@@ -1,0 +1,48 @@
+body {
+    /* set default background color */
+    background-color: rgb(243, 181, 160);
+  }
+  
+  @media(min-width: 320px) {
+    /* 
+      - show mobile div
+      - hide tablet and desktop divs
+    */
+    .tablet, .desktop {
+        display: none;
+    }
+  }
+  
+  @media (min-width:768px) {
+    /*
+      - show tablet div
+      - hide mobile and desktop divs
+      - change background color
+    */
+    .mobile, .desktop{
+        display: none;
+    }
+    .tablet{
+        display:block;
+    }
+    body{
+        background-color: blueviolet;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    /*
+      - show desktop div
+      - hide mobile and tablet divs
+      - change background color
+    */
+    .mobile, .tablet{
+        display: none;
+    }
+    .desktop{
+        display:block;
+    }
+    body{
+        background-color: palevioletred;
+    }
+  }
