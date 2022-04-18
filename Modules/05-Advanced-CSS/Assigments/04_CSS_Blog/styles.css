@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* body, html{
+    background-image: url(https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+    
+} */
+.banner, .connect{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+  
+}
+nav ul{
+    display:flex;
+    justify-content: space-around;
+    padding: 1em;
+    list-style: none;
+    
+}
+
+ul a{
+    text-decoration: none;
+   color: black;
+   font-weight: bold;
+}
+header nav ul{
+    position: sticky;
+    top:0;
+}
+
+header, footer{
+    background-color: rgb(246, 232, 187);
+}
+.banner>img{
+    border-radius: 25px;
+    transform: rotateY(180deg);
+    margin-left: 2em;;
+    
+}
+.subscribe input, .subscribe button,form input{
+padding: .5em;
+border-radius: .5em;
+font: 1.12em black;
+margin:.25em;
+}
+
+
+.subscribe{
+color:forestgreen;
+}
+
+.btn{
+    background-color: forestgreen;
+    color:azure;
+    
+}
+.info-text{
+    height:10em;
+    overflow:hidden;
+    padding: 0em 1em;
+    text-align: justify;
+}
+.blog-content{
+    /* border: .25em grey solid; */
+    border-radius: 1em;
+    margin: 3rem;
+    background-color:rgb(252, 238, 216);
+width: 20em;
+height:30em;
+position: relative;
+align-items: center;
+}
+.blog-content:hover{
+width:22em;
+height:32em;
+}
+.blog-title{
+background-color: rgb(214, 245, 161);
+margin-bottom:.5em;
+border-radius:.5em .5em 0em 0em;
+justify-content: center;
+padding:.5em;}
+
+.more-btn{
+    position: absolute;
+    bottom: 1em;
+    right:1em;
+    padding:.25em;
+    border-radius:.5em;
+    background-color: rgb(214, 245, 161);
+    border: 0.25em rgb(41, 41, 41) solid;
+    font-size: 1em;
+}
+.more-btn:hover, .btn:hover{
+    background-color: rgb(188, 215, 140);
+    border: 0.25em rgb(11, 11, 11) solid;
+    font-weight: bold;
+}
+.contents{
+    display: flex;
+   justify-content: space-evenly;
+   background-image: linear-gradient(rgb(156, 212, 156),rgb(182, 182, 235));
+}
+
+
+.pre-img{
+    width: 18em;
+    height: 10em;
+    padding-left: 1em;
+    
+}
+.pre-img:hover{
+    transform:scale(1.12);
+}
+
+h2{
+    padding:1em 0em;;
+    text-align: center;
+    border-top: .5em gray solid;
+}
+
+form{
+    display:inline-flex;
+    flex-direction: column;
+}
+.connect{
+}
