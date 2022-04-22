@@ -1,0 +1,140 @@
+/*whole document*/
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    
+}
+body{
+    background-color: rgb(225, 236, 238);
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.forms input, textarea{
+    padding: .5em;
+    border-radius: 1em;
+    border:rgb(108, 108, 130) solid .12em;
+    font-size: 1.25em;
+    margin: .25em;
+}
+
+.btns{
+    background-color:rgb(246, 182, 136);
+    font-weight: bold;
+}
+
+.btns:hover{
+    background-color:rgb(250, 211, 184) ;
+    border:rgb(108, 108, 130) solid .25em;
+}
+
+li{
+    margin: 1.5em;
+}
+/*header*/
+nav{
+    position: sticky;
+    top:0%;
+    z-index: 1;
+    color:darkslateblue;
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    background-color:beige  
+}
+
+
+/*Just some tooltip for hover*/
+.tooltip-text{
+    visibility: hidden;
+    position: absolute;
+    background-color: bisque;
+    border-radius: 5em;
+    padding:.5em;
+    margin:.25em;
+    color: gray;
+}
+
+.tooltip:hover .tooltip-text, #CTA-sample .tooltip-text{
+    visibility: visible;
+}
+
+
+/*CTA*/
+#CTA{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+align-items: center;
+background-color:beige;
+height: 50em;
+}
+
+#CTA-sample{
+    transform: scale(.75);
+}
+
+    .CTA-banner h2{
+        position: absolute;
+        top: 7em;
+        right: 20em;
+    }
+#form-quotation{
+    display: flex;
+    flex-direction: column;
+}
+
+/*contact card*/
+.contactme{
+    display: flex;
+    margin-top: 5em;
+    width:80em;
+    margin:5em 25%;  
+    
+}
+
+.contact-info{
+    background-color: rgb(63, 97, 175);
+    color:azure;
+    width: 30%;
+    padding: 1em;
+}
+
+.contact-form{
+    background-color: rgb(157, 202, 253);
+    width:70%;
+}
+
+.contact-form .btns{
+    background-color: rgb(39, 65, 95);
+    color: azure;
+}
+
+.contact-form .btns:hover{
+    background-color: rgb(98, 117, 138);
+    color: azure;
+    border-color: rgb(39, 65, 95);
+}
+#form-message, .contact-header{
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+}
+
+.network-accounts{
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-icons:hover{
+    transform: scale(150%);
+  }
